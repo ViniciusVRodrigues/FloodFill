@@ -15,10 +15,16 @@ public class Pixel {
         return y;
     }
 
-    public boolean equals(Pixel pixel) {
-        return this.x == pixel.getX() && this.y == pixel.getY();
+
+    public boolean equals(Object object) {
+        if (!(object instanceof Pixel)) {
+            return false;
+        }
+        Pixel pixel = (Pixel) object;
+        return x == pixel.x && y == pixel.y;
     }
 
+    @Override
     public String toString() {
         return "Pixel at (" + x + ", " + y + ")";
     }

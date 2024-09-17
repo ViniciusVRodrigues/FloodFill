@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.io.IOException;
 
 public class Main {
@@ -13,5 +14,11 @@ public class Main {
         processadorImagem.mostrarMatrizCores();
         processadorImagem.floodFill(0,0,0);
         processadorImagem.verFila();
+
+        JFrame frame = new JFrame();// Create the panel with image
+
+        frame.setSize(400, 400);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
     }
 }

@@ -46,8 +46,7 @@ public class DynamicQueue<T> extends ArrayStack<T>{
 
     public boolean contains(T data){
         for (int i = 0; i <= top; i++) {
-            if(this.data[i].equals(data))
-                return true;
+
         }
         return false;
     }

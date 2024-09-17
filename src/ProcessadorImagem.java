@@ -1,9 +1,10 @@
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import javax.swing.JPanel;
 import java.io.IOException;
 
-public class ProcessadorImagem {
+public class ProcessadorImagem extends JPanel{
     private BufferedImage bufferedImage;
     private int[][] matrizCores;
     private DynamicQueue<Pixel> queue;
@@ -37,7 +38,7 @@ public class ProcessadorImagem {
         System.out.println();
         for (int row = 0; row < imageHeight; row++) {
             for (int col = 0; col < imageWidth; col++) {
-                System.out.print(" "+matrizCores[row][col]+" ");
+                System.out.print(STR." \{matrizCores[row][col]} ");
             }
             System.out.println();
         }
@@ -52,6 +53,26 @@ public class ProcessadorImagem {
         pile = new DynamicPile<Pixel>();
         Pixel pixel = new Pixel(x, y);
         pegarPixelsComCorIgual(pixel);
+    }
+
+    public void pintarPorPilha(){
+        //Gerando imagens a cada 1% de progresso
+        int totalPixels = pile.size;
+        int pixelsPintados = 0;
+        while(!pile.isEmpty()){
+            Pixel pixel = pile.pop();
+            int x = pixel.getX();
+            int y = pixel.getY();
+            bufferedImage.setRGB(x, y, corNova);
+            pixelsPintados++;
+            if(pixelsPintados % (totalPixels/100) == 0){
+                System.out.println(pixelsPintados/(totalPixels/100) + "%");
+            }
+        }
+    }
+
+    public void pintarPorFila(){
+
     }
 
     public void verPilha(){
