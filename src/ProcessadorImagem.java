@@ -1,10 +1,11 @@
 import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import javax.swing.JPanel;
 import java.io.IOException;
 
-public class ProcessadorImagem extends JPanel{
+public class ProcessadorImagem{
     private BufferedImage bufferedImage;
     private int[][] matrizCores;
     private DynamicQueue<Pixel> queue;
@@ -44,10 +45,9 @@ public class ProcessadorImagem extends JPanel{
         }
     }
 
-    public void floodFill(int x,int y,int corNova){
+    public void floodFill(int x,int y){
         this.xSelecionado = x;
         this.ySelecionado = y;
-        this.corNova = corNova;
         this.corVelha = matrizCores[y][x];
         queue = new DynamicQueue<Pixel>();
         pile = new DynamicPile<Pixel>();
@@ -57,7 +57,7 @@ public class ProcessadorImagem extends JPanel{
 
     public void pintarPorPilha(){
         //Gerando imagens a cada 1% de progresso
-        int totalPixels = pile.size;
+        int totalPixels = pile.top+1;
         int pixelsPintados = 0;
         while(!pile.isEmpty()){
             Pixel pixel = pile.pop();
@@ -67,12 +67,36 @@ public class ProcessadorImagem extends JPanel{
             pixelsPintados++;
             if(pixelsPintados % (totalPixels/100) == 0){
                 System.out.println(pixelsPintados/(totalPixels/100) + "%");
+                try {
+                    File outputFile = new File("img/imagemPilha"+(pixelsPintados/(totalPixels/100))+".png"); // Save as PNG
+                    ImageIO.write(bufferedImage, "png", outputFile);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
 
     public void pintarPorFila(){
-
+        //Gerando imagens a cada 1% de progresso
+        int totalPixels = queue.top+1;
+        int pixelsPintados = 0;
+        while(!queue.isEmpty()){
+            Pixel pixel = queue.pop();
+            int x = pixel.getX();
+            int y = pixel.getY();
+            bufferedImage.setRGB(x, y, corNova);
+            pixelsPintados++;
+            if(pixelsPintados % (totalPixels/100) == 0){
+                System.out.println(pixelsPintados/(totalPixels/100) + "%");
+                try {
+                    File outputFile = new File("img/imagemFila"+(pixelsPintados/(totalPixels/100))+".png"); // Save as PNG
+                    ImageIO.write(bufferedImage, "png", outputFile);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
     public void verPilha(){
