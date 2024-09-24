@@ -39,7 +39,7 @@ public class ProcessadorImagem{
         System.out.println();
         for (int row = 0; row < imageHeight; row++) {
             for (int col = 0; col < imageWidth; col++) {
-                System.out.print(STR." \{matrizCores[row][col]} ");
+                System.out.print(" "+matrizCores[row][col]+" ");
             }
             System.out.println();
         }
