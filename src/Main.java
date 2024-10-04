@@ -11,8 +11,9 @@ public class Main {
             System.out.println("Erro ao pegar imagem! Encerrando...");
             return;
         }
-        processadorImagem.mostrarMatrizCores();
         processadorImagem.floodFill(0,0);
+        processadorImagem.pintarPorPilha();
         processadorImagem.pintarPorFila();
+        JanelaPintura janelaPintura = new JanelaPintura();
     }
 }

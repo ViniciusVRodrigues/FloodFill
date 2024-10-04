@@ -1,3 +1,5 @@
+import org.w3c.dom.css.RGBColor;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -16,7 +18,13 @@ public class ProcessadorImagem{
     private int corVelha;
     private int imageWidth;
     private int imageHeight;
+    private String caminho;
     ProcessadorImagem(String caminho) throws IOException {
+        this.caminho = caminho;
+        setBufferedImage();
+    }
+
+    public void setBufferedImage() throws IOException{
         bufferedImage = ImageIO.read(new File(caminho));
         matrizCores = obterMatrizCores();
     }
@@ -50,6 +58,7 @@ public class ProcessadorImagem{
         this.ySelecionado = y;
         this.corVelha = matrizCores[y][x];
         queue = new DynamicQueue<Pixel>();
+        corNova = new Color(255, 0, 0).getRGB();
         pile = new DynamicPile<Pixel>();
         Pixel pixel = new Pixel(x, y);
         pegarPixelsComCorIgual(pixel);
@@ -57,12 +66,18 @@ public class ProcessadorImagem{
 
     public void pintarPorPilha(){
         //Gerando imagens a cada 1% de progresso
+        try {
+            setBufferedImage();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         int totalPixels = pile.top+1;
         int pixelsPintados = 0;
         while(!pile.isEmpty()){
             Pixel pixel = pile.pop();
             int x = pixel.getX();
             int y = pixel.getY();
+
             bufferedImage.setRGB(x, y, corNova);
             pixelsPintados++;
             if(pixelsPintados % (totalPixels/100) == 0){
@@ -79,6 +94,11 @@ public class ProcessadorImagem{
 
     public void pintarPorFila(){
         //Gerando imagens a cada 1% de progresso
+        try {
+            setBufferedImage();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         int totalPixels = queue.top+1;
         int pixelsPintados = 0;
         while(!queue.isEmpty()){

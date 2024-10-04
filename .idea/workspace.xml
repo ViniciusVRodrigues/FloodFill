@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6c36b2a-4ae1-459b-b22e-51b68dc83298" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JanelaPintura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagem.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagem.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/imagemFila1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemFila1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/imagemFila10.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemFila10.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/imagemFila100.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemFila100.png" afterDir="false" />
@@ -112,6 +112,111 @@
       <change beforePath="$PROJECT_DIR$/img/imagemFila97.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemFila97.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/imagemFila98.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemFila98.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/imagemFila99.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemFila99.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha10.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha100.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha101.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha101.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha102.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha102.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha103.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha103.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha104.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha104.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha11.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha12.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha13.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha14.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha15.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha17.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha18.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha19.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha20.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha21.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha22.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha23.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha24.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha25.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha26.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha27.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha28.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha29.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha30.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha31.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha32.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha33.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha34.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha35.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha36.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha37.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha38.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha39.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha40.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha41.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha42.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha43.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha44.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha45.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha46.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha47.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha48.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha49.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha50.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha51.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha51.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha52.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha53.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha53.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha54.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha54.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha55.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha56.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha56.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha57.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha58.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha58.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha59.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha59.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha60.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha61.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha61.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha62.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha62.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha63.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha63.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha64.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha65.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha65.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha66.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha66.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha67.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha67.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha68.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha68.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha69.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha69.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha7.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha70.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha71.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha71.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha72.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha73.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha73.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha74.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha74.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha75.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha75.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha76.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha77.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha77.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha78.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha78.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha79.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha79.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha8.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha80.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha80.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha81.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha81.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha82.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha82.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha83.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha83.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha84.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha84.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha85.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha85.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha86.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha86.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha87.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha87.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha88.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha88.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha89.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha89.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha9.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha90.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha90.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha91.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha91.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha92.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha92.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha93.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha93.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha94.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha94.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha95.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha95.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha96.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha97.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha97.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha98.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha98.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imagemPilha99.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/imagemPilha99.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProcessadorImagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProcessadorImagem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +272,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\FloodFill" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
