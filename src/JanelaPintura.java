@@ -17,7 +17,7 @@ public class JanelaPintura extends JFrame {
 
     public JanelaPintura() {
         // Configurações da janela
-        setTitle("Pintura por Pilha e Fila");
+        setTitle("Flood Fill");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
