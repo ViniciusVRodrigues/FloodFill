@@ -23,15 +23,12 @@ public class DynamicQueue<T> extends ArrayStack<T>{
     }
 
     public T pop(){
-        if(isEmpty())
+        if (isEmpty())
             return null;
         T data = this.data[0];
-        for (int i = 1; i <= top; i++) {
-            if(this.data[i]==null)
-                break;
-            this.data[i-1] = this.data[i];
-            this.data[i] = null;
-        }
+        for (int i = 1; i <= top; i++)
+            this.data[i - 1] = this.data[i];
+        this.data[top] = null;
         top--;
         return data;
     }
@@ -46,7 +43,8 @@ public class DynamicQueue<T> extends ArrayStack<T>{
 
     public boolean contains(T data){
         for (int i = 0; i <= top; i++) {
-
+            if(this.data[i].equals(data))
+                return true;
         }
         return false;
     }

@@ -12,7 +12,7 @@ public class JanelaPintura extends JFrame {
     private Timer timer;
     private String caminhoImagem;
     private int contadorImagem = 1;
-    private int totalImagens = 104; // total de imagens geradas
+    private int totalImagens = 100;
     private String modo = "";
 
     public JanelaPintura() {
