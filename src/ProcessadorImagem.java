@@ -41,17 +41,6 @@ public class ProcessadorImagem{
         return result;
     }
 
-    public void mostrarMatrizCores(){
-        System.out.println("Matriz Cores");
-        System.out.println();
-        for (int row = 0; row < imageHeight; row++) {
-            for (int col = 0; col < imageWidth; col++) {
-                System.out.print(" "+matrizCores[row][col]+" ");
-            }
-            System.out.println();
-        }
-    }
-
     public void floodFillFila(int xSelecionado,int ySelecionado, int cor){
         try {
             setBufferedImage();
@@ -102,7 +91,7 @@ public class ProcessadorImagem{
             pixelsPintados++;
             if(pixelsPintados % (totalPixels/100) == 0){
                 try {
-                    File outputFile = new File("img/imagemFila"+(pixelsPintados/(totalPixels/100))+".png"); // Save as PNG
+                    File outputFile = new File("img/imagemFila"+(pixelsPintados/(totalPixels/100))+".png");
                     ImageIO.write(bufferedImage, "png", outputFile);
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -110,7 +99,7 @@ public class ProcessadorImagem{
             }
         }
         try {
-            File outputFile = new File("img/imagemFila100.png"); // Save as PNG
+            File outputFile = new File("img/imagemFila100.png");
             ImageIO.write(bufferedImage, "png", outputFile);
         } catch (IOException e) {
             e.printStackTrace();
