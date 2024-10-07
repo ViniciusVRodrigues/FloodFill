@@ -16,25 +16,24 @@ public class JanelaPintura extends JFrame {
     private String modo = "";
 
     public JanelaPintura() {
-        // Definir o título da janela
         setTitle("FLOOD FILL");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Rótulo para exibir a imagem
         labelImagem = new JLabel();
         labelImagem.setHorizontalAlignment(JLabel.CENTER);
+        labelImagem.setBorder(BorderFactory.createLineBorder(new Color(199, 91, 122), 1));
         add(labelImagem, BorderLayout.CENTER);
 
         JPanel painelBotoes = new JPanel();
-        painelBotoes.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 10));  // Personalizar layout e espaçamento
+        painelBotoes.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 10));
 
         JButton botaoPilha = new JButton("Pintar por Pilha");
         JButton botaoFila = new JButton("Pintar por Fila");
 
-        estilizarBotao(botaoPilha, new Color(56, 116, 120), Color.BLACK);
-        estilizarBotao(botaoFila, new Color(56, 116, 120), Color.BLACK);
+        estilizarBotao(botaoPilha, new Color(244, 217, 208), new Color(199, 91, 122));
+        estilizarBotao(botaoFila, new Color(244, 217, 208), new Color(199, 91, 122));
 
         painelBotoes.add(botaoPilha);
         painelBotoes.add(botaoFila);
@@ -44,12 +43,13 @@ public class JanelaPintura extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                g.setFont(new Font("Arial", Font.BOLD, 24));
-                g.setColor(Color.RED);
-                g.drawString("Escolha o método de pintura", 250, 30); // Posição do texto
+                g.setFont(new Font("Serif", Font.BOLD, 24));
+                g.setColor(new Color(146, 26, 64));
+                g.drawString("Escolha o método de pintura", 250, 30);
             }
         };
         painelTexto.setPreferredSize(new Dimension(800, 50));
+        add(painelTexto, BorderLayout.NORTH);
 
         botaoPilha.addActionListener(new ActionListener() {
             @Override
@@ -72,13 +72,13 @@ public class JanelaPintura extends JFrame {
         setVisible(true);
     }
 
-
     private void estilizarBotao(JButton botao, Color corFundo, Color corTexto) {
         botao.setBackground(corFundo);
         botao.setForeground(corTexto);
         botao.setFont(new Font("Arial", Font.BOLD, 14));
         botao.setFocusPainted(false);
-        botao.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 1));  // Borda com espessura
+        botao.setPreferredSize(new Dimension(150, 40));
+        botao.setBorder(BorderFactory.createLineBorder(new Color(199, 91, 122), 1));
     }
 
     private void exibirImagensSequencia() {
@@ -117,4 +117,5 @@ public class JanelaPintura extends JFrame {
         new JanelaPintura();
     }
 }
+
 
